@@ -1,6 +1,6 @@
 # API Guide
 General notes:
-All transaction amounts, balances, and fees are represented in leaves (1 leaf = 1/10,000 PDN).
+All transaction amounts, balances, and fees are represented in atoms (1 atom = 1/1,000,000 FRD).
 All wallet addresses, keys, and block hashes are represented as hexadecimal strings.
 
 #### `GET` /ledger?wallet={string:walletAddress}
